@@ -57,64 +57,67 @@ IntelligentRAGProject/
 cd backend
 pip install -r requirements.txt
 python app.py
-Frontend
-bash
-نسخ الكود
+```
+
+### Frontend
+```bash
 cd frontend
 npm install
 npm start
-Running the Project
-Start the backend server first (Flask):
+```
 
-bash
-نسخ الكود
-cd backend
-python app.py
-Backend will run at: http://localhost:5000
+---
 
-Start the frontend server (React):
+## Running the Project
 
-bash
-نسخ الكود
-cd frontend
-npm start
-Frontend will run at: http://localhost:3000
+1. Start the backend server first (Flask):
+   ```bash
+   cd backend
+   python app.py
+   ```
+   Backend will run at: http://localhost:5000  
 
-Open your browser and go to http://localhost:3000 to use the application.
+2. Start the frontend server (React):
+   ```bash
+   cd frontend
+   npm start
+   ```
+   Frontend will run at: http://localhost:3000  
 
-Frontend Features
-Navbar
-Navigation bar to switch between Ask, Tasks, and Calendar sections.
+3. Open your browser and go to http://localhost:3000 to use the application.
 
-Responsive design with hover effects.
+---
 
-Tasks Component
-Add, edit, and delete tasks.
+## Frontend Features
 
-Mark tasks as completed.
+### Navbar
+- Navigation bar to switch between **Ask**, **Tasks**, and **Calendar** sections.  
+- Responsive design with hover effects.
 
-Interactive cards with gradient backgrounds.
+### Tasks Component
+- Add, edit, and delete tasks.  
+- Mark tasks as completed.  
+- Interactive cards with gradient backgrounds.
 
-Google Calendar Component
-Connect your Google account.
+### Google Calendar Component
+- Connect your Google account.  
+- View and manage your events.  
+- Schedule tasks directly from the RAG system.
 
-View and manage your events.
+### Ask Component
+- Ask questions to the AI RAG system.  
+- Receive context-aware answers.  
+- Auto-scroll and highlight responses for clarity.
 
-Schedule tasks directly from the RAG system.
+---
 
-Ask Component
-Ask questions to the AI RAG system.
+## Notes
+- Make sure the backend server is running before using the frontend.  
+- For Google Calendar integration, you will need to configure OAuth credentials in the frontend.  
+- Tailwind CSS is used for styling; ensure `npm install` runs without errors.  
+- You can extend the dataset in `backend/data/dataset.csv` to improve AI responses.
 
-Receive context-aware answers.
+---
 
-Auto-scroll and highlight responses for clarity.
-
-Notes
-Make sure the backend server is running before using the frontend.
-
-For Google Calendar integration, you will need to configure OAuth credentials in the frontend.
-
-Tailwind CSS is used for styling; ensure npm install runs without errors.
-
-You can extend the dataset in backend/data/dataset.csv to improve AI responses.
-
+## Contact
+For any issues or questions regarding the project, contact **Mahmoud Sammour** at `mahmoud@example.com`.
