@@ -23,7 +23,6 @@ This project includes both:
 
 ## Project Structure
 
-
 IntelligentRAGProject/
 │
 ├── backend/
@@ -60,7 +59,9 @@ cd backend
 pip install -r requirements.txt
 python app.py
 
+
 Frontend
+```bash
 cd frontend
 npm install
 npm start
@@ -72,7 +73,7 @@ Backend will run at http://localhost:5000
 
 How to Use
 
-Open the frontend in your browser.
+Open the frontend in your browser (http://localhost:3000).
 
 Type a question in the "Ask" section and submit to receive AI answers.
 
@@ -80,3 +81,6 @@ Manage tasks in the Tasks section.
 
 Connect your Google Calendar in the Calendar section.
 
+Notes
+
+Make sure the backend server is running before using the frontend.
