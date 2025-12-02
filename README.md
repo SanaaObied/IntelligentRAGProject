@@ -119,5 +119,3 @@ npm start
 
 ---
 
-## Contact
-For any issues or questions regarding the project, contact **Mahmoud Sammour** at `mahmoud@example.com`.
