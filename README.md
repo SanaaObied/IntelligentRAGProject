@@ -22,31 +22,30 @@ This project includes both:
 ---
 
 ## Project Structure
-
 IntelligentRAGProject/
-│
 ├── backend/
-│ ├── app.py
-│ ├── requirements.txt
-│ ├── data/
-│ │ └── dataset.csv
-│ └── rag_module.py
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── data/
+│   │   └── dataset.csv
+│   └── rag_module.py
 │
 ├── frontend/
-│ ├── package.json
-│ ├── public/
-│ │ └── index.html
-│ └── src/
-│ ├── App.js
-│ ├── index.js
-│ ├── components/
-│ │ ├── Navbar.js
-│ │ ├── Tasks.js
-│ │ └── GoogleCalendar.js
-│ └── styles/
-│ └── App.css
+│   ├── package.json
+│   ├── public/
+│   │   └── index.html
+│   └── src/
+│       ├── App.js
+│       ├── index.js
+│       ├── components/
+│       │   ├── Navbar.js
+│       │   ├── Tasks.js
+│       │   └── GoogleCalendar.js
+│       └── styles/
+│           └── App.css
 │
 └── README.md
+
 
 ---
 
