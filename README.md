@@ -48,40 +48,73 @@ IntelligentRAGProject/
 │
 └── README.md
 
-
 ---
 
 ## Installation
 
-Backend
+### Backend
 ```bash
 cd backend
 pip install -r requirements.txt
 python app.py
-
-
 Frontend
-```bash
+bash
+نسخ الكود
 cd frontend
 npm install
 npm start
+Running the Project
+Start the backend server first (Flask):
 
----
+bash
+نسخ الكود
+cd backend
+python app.py
+Backend will run at: http://localhost:5000
 
-Frontend will run at http://localhost:3000
+Start the frontend server (React):
 
-Backend will run at http://localhost:5000
+bash
+نسخ الكود
+cd frontend
+npm start
+Frontend will run at: http://localhost:3000
 
-How to Use
+Open your browser and go to http://localhost:3000 to use the application.
 
-Open the frontend in your browser (http://localhost:3000).
+Frontend Features
+Navbar
+Navigation bar to switch between Ask, Tasks, and Calendar sections.
 
-Type a question in the "Ask" section and submit to receive AI answers.
+Responsive design with hover effects.
 
-Manage tasks in the Tasks section.
+Tasks Component
+Add, edit, and delete tasks.
 
-Connect your Google Calendar in the Calendar section.
+Mark tasks as completed.
+
+Interactive cards with gradient backgrounds.
+
+Google Calendar Component
+Connect your Google account.
+
+View and manage your events.
+
+Schedule tasks directly from the RAG system.
+
+Ask Component
+Ask questions to the AI RAG system.
+
+Receive context-aware answers.
+
+Auto-scroll and highlight responses for clarity.
 
 Notes
-
 Make sure the backend server is running before using the frontend.
+
+For Google Calendar integration, you will need to configure OAuth credentials in the frontend.
+
+Tailwind CSS is used for styling; ensure npm install runs without errors.
+
+You can extend the dataset in backend/data/dataset.csv to improve AI responses.
+
