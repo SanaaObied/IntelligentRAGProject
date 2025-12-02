@@ -53,7 +53,7 @@ IntelligentRAGProject/
 
 ## Installation
 
-### Backend
+Backend
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -66,6 +66,7 @@ cd frontend
 npm install
 npm start
 
+---
 
 Frontend will run at http://localhost:3000
 
