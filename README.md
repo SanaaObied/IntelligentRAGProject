@@ -1,6 +1,6 @@
 # Intelligent RAG Project
 
-![AI Hero Image](https://images.unsplash.com/photo-1610878180933-99b4f24f69d7?auto=format&fit=crop&w=1350&q=80)
+![AI Hero Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.chitika.com%2Frag-project-ideas-tutorials%2F&psig=AOvVaw17v8O1lXbbksybaooS0Vsg&ust=1764791898482000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLja3aTYn5EDFQAAAAAdAAAAABAE)
 
 ## Overview
 **Intelligent RAG Project** is an AI-powered **Retrieval-Augmented Generation (RAG) System**.  
